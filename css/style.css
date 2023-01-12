@@ -44,18 +44,24 @@ body {
     margin-bottom: 5px;
 }
 
+.order__mobile-space {
+    display: none;
+}
+
 .order-status {
     display: flex;
     justify-content: space-between;
     border-bottom: #e2e2e9 4px solid;
-    padding-bottom: 31px;
+    border-radius: 2px;
     margin-bottom: 13px;
+
 }
 
 .order-status__text,
 .order-status__time-left {
     font-size: 36px;
     line-height: 49px;
+    margin-bottom: 31px;
     color: #000000;
 }
 
@@ -114,6 +120,11 @@ body {
     .order-number {
         font-size: 12px;
         line-height: 14px;
+        font-family: Arial, sans-serif;
+    }
+
+    .order__mobile-space {
+        display: inline;
     }
 
     .order-status {
