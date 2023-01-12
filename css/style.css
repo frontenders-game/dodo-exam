@@ -139,6 +139,7 @@ body {
         border-radius: 10px;
         padding: 18px 60px 18px 20px;
         margin-bottom: 30px;
+        gap: 4px;
     }
 
     .order-address__mobile {
